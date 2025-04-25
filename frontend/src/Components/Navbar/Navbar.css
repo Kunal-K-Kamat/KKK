@@ -1,0 +1,144 @@
+.logo-links {
+    text-decoration: none;
+    color: #1e2340;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Navlinks {
+    position: relative;
+    text-decoration: none;
+}
+
+.Navlinks::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px; /* Adjust the thickness of the underline */
+    bottom: 0;
+    left: 0;
+    background-color: #1e2340; /* Adjust the color of the underline */
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Navlinks:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.navbar {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.logo img {
+    width: 70px;
+    height: auto;
+}
+
+.navitems {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    gap: 20px;
+    list-style-type: none;
+    font-size: 19px;
+    padding: 1rem;
+}
+
+.navitems li {
+    margin-right: 15px;
+}
+
+.Navlinks {
+    text-decoration: none;
+    color: #1e2340;
+}
+
+.Navlinks svg {
+    margin-right: 5px;
+}
+
+.active {
+    font-weight: 700;
+    /* background-color: indigo; */
+    /* font-size: 25px; */
+    padding: 5px 8px;
+    border-radius: 20px;
+    transition: all 0.2s ease-in;
+}
+
+.active a {
+    /* color: white; */
+    color: #1e2340;
+}
+
+.active-icon {
+    color: yellow;
+}
+
+.login-button {
+    /* margin-top: 20px; */
+    margin-left: 2rem;
+    border: none;
+    outline: none;
+    color: #005a7b;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: none;
+}
+
+.login-button a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    text-decoration: none !important;
+    color: #1e2340;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        height: auto;
+        padding: 2rem;
+    }
+
+    .logo-links {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .logo img {
+        width: 50px;
+        /* Adjust the logo size for mobile */
+    }
+
+    .navitems {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 16px;
+    }
+
+    .navitems li {
+        margin-right: 0;
+        /* Remove right margin for list items */
+    }
+
+    .login-button {
+        margin-top: 20px;
+        margin-left: 20px;
+        border: none;
+        outline: none;
+        color: #fff;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
