@@ -8,7 +8,7 @@ const Footer = () => {
             <p>
                 Made with{" "}
                 <BsHeartFill style={{ color: "red", marginBottom: "-2px" }} />{" "}
-                by Team COC
+                by Team KKK
             </p>
         </footer>
     );
