@@ -30,7 +30,3 @@ Just as threats in the cyber realm adapt, so does PhishNet. User feedback is the
 
 With PhishNet by your side, you can confidently surf the web, knowing that your online safety is a top priority. Join the community, earn rewards, and be a part of the force against cyber threats.
 ```
-
-
-By Team COC <br>
-========Thank You !!!=========
