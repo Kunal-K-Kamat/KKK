@@ -1,4 +1,4 @@
-# GuardNet – From Click to Clarity A Hybrid System for URL Safety Prediction
+# GuardNet – From Click to Clarity, A Hybrid System for URL Safety Prediction
 
 ## Overview : 
 GuardNet is a platform powered by AI that identifies and blocks phishing attacks in real- time. GuardNet analyzes URLs, webpage behaviour, offering user an intelligent result to remain safe from unsafe websites and fraudulent online tactics. With its minimalistic interface and integration into the cybersurfer, GuardNet provides hassle-free protection to individualities as well as associations.
